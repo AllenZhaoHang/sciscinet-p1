@@ -1,0 +1,74 @@
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon\r
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+.apdisk
+
+# --- Editors / IDE ---
+.vscode/
+.idea/
+*.iml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+.env
+.env.*
+*.ipynb_checkpoints
+
+# --- Conda ---
+.conda/
+conda-meta/
+*.conda
+*.lock
+
+# --- Node/JS (若前端或工具脚本用到) ---
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# --- ROS / colcon / catkin (机器人项目常用) ---
+build/
+devel/
+install/
+log/
+.colcon*
+CATKIN_IGNORE
+
+# --- Data / Model Artifacts ---
+data/
+datasets/
+outputs/
+runs/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+wandb/
+mlruns/
+tensorboard/
+event*.*
+
+# --- C/C++ / Bazel (如有) ---
+*.o
+*.a
+*.out
+bazel-*
+
+# --- OS / Misc ---
+.DS_Store?
+Thumbs.db
